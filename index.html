@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>The Karen Report</h1>
+    <div id="container">
+      <div id="form">
+        <h2>Where Was Karen?</h2>
+        <form id="location-form">
+          <input type="text" name="city" placeholder="City"/>
+          <br/>
+          <br/>
+          <input type="text" name="state" placeholder="State"/>
+          <br/>
+          <br/>
+          <input type="text" name="title" placeholder="What Did Karen Do?"/>
+          <br/>
+          <br/>
+          <textarea type="text" name="incident" rows="20" cols="80" placeholder="Tell Us All About It!"></textarea>
+          <br/>
+          <br/>
+          <input type="submit" value="Put Karen On Blast"/>
+        </form>
+      </div>
+      <div id="location-container">
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/services/API.js"></script>
+  <script type="text/javascript" src="js/models/location.js"></script>
+  <script type="text/javascript" src="js/src/index.js"></script>
+
+
+</html>
